@@ -1,40 +1,9 @@
-.p1 {
-    text-align: justify;
-    color: blue;
-    background-color: aqua;
-    padding: 30px;
-}
-
-.p3 {
-    background-color: red;
-}
-
-.gatos_centrados {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.centrar_texto {
-    text-align: center;
-    text-decoration: none;
-}
-
-.container {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+body {
     background-color: azure;
-    -ms-overflow-style:none;
-    scrollbar-width: none;
-}
-
-.container::-webkit-scrollbar {
-    display: none;
 }
 
 .nav {
-    position: fixed;
+    position: absolute;
     background-color: cornflowerblue;
     height: 70px;
     top:0px;
@@ -85,5 +54,3 @@ footer {
     color:white;
     text-align: center;
 }
-
-
