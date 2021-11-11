@@ -21,17 +21,15 @@
 }
 
 .container {
+    margin-top: 120px;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     background-color: azure;
-    -ms-overflow-style:none;
-    scrollbar-width: none;
+    position: static;
+    padding: 20px;
 }
 
-.container::-webkit-scrollbar {
-    display: none;
-}
 
 .nav {
     position: fixed;
@@ -77,7 +75,8 @@
 
 footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: fixed;
+    position: relative;
+    height: 40px;
     left:0;
     bottom: 0;
     width: 100%;
@@ -85,5 +84,7 @@ footer {
     color:white;
     text-align: center;
 }
+
+
 
 
